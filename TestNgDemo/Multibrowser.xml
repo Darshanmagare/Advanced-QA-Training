@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+<test name="ChromeTest">
+<parameter name="browsername" value="Chrome"/>
+<classes>
+<class name="testng.SeleniumMultiBrowserProgram"/>
+</classes>
+</test>
+<test name="FirefoxTest">
+<parameter name="browsername" value="Firefox"/>
+<classes>
+<class name="testng.SeleniumMultiBrowserProgram"/>
+</classes>
+</test>
+</suite>
